@@ -18,7 +18,7 @@ README.md
 [![License: AGPLv3](https://img.shields.io/badge/License-AGPL_v3-purple.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org)
 
-> Credential rotation enforcer written in Crystal. Tracks credentials, evaluates compile-time-checked policies, and executes the four-step rotation contract against AWS Secrets Manager, HashiCorp Vault, GitHub fine-grained PATs, and local `.env` files. Single binary, live TUI, bidirectional Telegram bot, tamper-evident audit log, signed compliance evidence export.
+> Credential rotation enforcer written in Crystal. Tracks credentials, evaluates compile-time-checked policies, and executes the four-step rotation contract against AWS Secrets Manager, HashiCorp Vault, GitHub fine-grained PATs, and local `.env` files. Single binary, live TUI, bidirectional Telegram bot, tamper-evident audit log,signed compliance evidence export.
 
 *This is a quick overview — security theory, architecture, and full walkthroughs are in the [learn modules](#learn). Operator setup lives in [CONFIGURATION.md](CONFIGURATION.md).*
 
