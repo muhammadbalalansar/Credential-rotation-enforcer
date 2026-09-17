@@ -139,7 +139,7 @@ All long-lived components are fibers in one OS process. The bus is in-process (C
 
 **Language:** Crystal 1.20+
 
-**Dependencies:** crystal-db (DB abstraction), crystal-pg (PostgreSQL), crystal-sqlite3 (SQLite), tourmaline (Telegram framework, used minimally), webmock.cr (test HTTP mocks)
+**Dependencies:** crystal-db (DB abstraction), crystal-pg (PostgreSQL), crystal-sqlite3 (SQLite), tourmaline (Telegram framework, used minimally), webmock.cr (test HTTP mocks). 
 
 **Direct LibCrypto FFI** for AES-256-GCM AEAD (Crystal stdlib `OpenSSL::Cipher` lacks GCM auth_data/auth_tag) and Ed25519 signing (stdlib lacks high-level wrapper). Bindings live in `src/cre/crypto/aead.cr` and `src/cre/audit/signing.cr`.
 
