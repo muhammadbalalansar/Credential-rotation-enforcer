@@ -130,7 +130,7 @@ All long-lived components are fibers in one OS process.The bus is in-process (Cr
    Layer 2 ─ HMAC ratchet (key zeroized per rotation)  →  past entries unforgeable
    Layer 1 ─ SHA-256 hash chain  →  any single-row tampering breaks forward chain
    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-   Postgres ─ append-only via TRIGGER + role grants (INSERT-only)
+   Postgres ─ append-only via TRIGGER + role grants (INSERT-only). 
 ```
 
 `cre audit verify` walks all three layers and reports which (if any) is broken.
