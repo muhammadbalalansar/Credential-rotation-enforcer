@@ -2,7 +2,7 @@
 ©AngelaMos | 2026
 README.md
 -->
-**By Muhammad Balal Ansar (Cyber
+**By Muhammad Balal Ansar (Cyber Security 
 ```regex
  ██████╗██████╗ ███████╗
 ██╔════╝██╔══██╗██╔════╝
