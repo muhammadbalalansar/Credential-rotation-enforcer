@@ -2,7 +2,7 @@
 ©AngelaMos | 2026
 README.md
 -->
-**By Muhammad Balal
+**By Muhammad Balal Ansar
 ```regex
  ██████╗██████╗ ███████╗
 ██╔════╝██╔══██╗██╔════╝
