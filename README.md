@@ -31,7 +31,7 @@ README.md
 - AEAD envelope encryption (AES-256-GCM, per-row DEKs wrapped by KEK, AAD-bound to credential identity, reserved `algorithm_id` byte for crypto agility)
 - Hand-rolled live TUI (no external TUI framework — stdlib ANSI escapes only) with event-driven repaints coalesced to a tick interval
 - Bidirectional Telegram bot — viewer tier (`/status`, `/queue`, `/history`, `/alerts`) + operator tier (`/rotate`)
-- Compliance evidence export bundle (signed ZIP with audit log, Merkle batches, control mapping for SOC 2 / PCI-DSS / ISO 27001 / HIPAA)
+- Compliance evidence export bundle (signed ZIP with audit log, Merkle batches, control mapping for SOC 2 / PCI-DSS / ISO 27001 / HIPAA). 
 
 ## Quick Start
 
