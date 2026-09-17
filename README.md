@@ -2,7 +2,6 @@
 ©AngelaMos | 2026
 README.md
 -->
-**By Muhammad Balal Ansar (Cyber Security Expert)**
 ```regex
  ██████╗██████╗ ███████╗
 ██╔════╝██╔══██╗██╔════╝
@@ -11,6 +10,8 @@ README.md
 ╚██████╗██║  ██║███████╗
  ╚═════╝╚═╝  ╚═╝╚══════╝
 ```
+
+**By Muhammad Balal Ansar (Cyber Security Expert)**
 
 [![Cybersecurity Projects](https://img.shields.io/badge/Cybersecurity--Projects-Project%20%2327%20intermediate-red?style=flat&logo=github)](https://github.com/CarterPerez-dev/Cybersecurity-Projects/tree/main/PROJECTS/intermediate/credential-rotation-enforcer)
 [![Crystal](https://img.shields.io/badge/Crystal-1.20+-black?style=flat&logo=crystal&logoColor=white)](https://crystal-lang.org)
