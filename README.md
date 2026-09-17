@@ -26,7 +26,7 @@ README.md
 
 - Compile-time-checked policy DSL (typo'd action symbols, missing fields, bad credential property references all fail `crystal build`)
 - Bus + plugin architecture — typed events fan out across Crystal channels; subscribers (audit, TUI, Telegram, log) react independently; rotators register at compile time via `register_as :kind` macro
-- Four-step rotation contract (`generate → apply → verify → commit`) borrowed from AWS Secrets Manager's rotation Lambda template, dual-version safe under concurrent reads
+- Four-step rotation contract (`generate → apply → verify → commit`) borrowed from AWS Secrets Manager's rotation Lambda template, dual-version safe under concurrent reads. 
 - Three-layer tamper-evident audit log: SHA-256 hash chain + ratcheting HMAC-SHA256 + Ed25519-signed Merkle batches
 - AEAD envelope encryption (AES-256-GCM, per-row DEKs wrapped by KEK, AAD-bound to credential identity, reserved `algorithm_id` byte for crypto agility)
 - Hand-rolled live TUI (no external TUI framework — stdlib ANSI escapes only) with event-driven repaints coalesced to a tick interval
