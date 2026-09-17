@@ -121,7 +121,7 @@ Adding a fifth rotator means dropping a single file in `src/cre/rotators/` — t
                        └──────────────────────────────────────┘
 ```
 
-All long-lived components are fibers in one OS process. The bus is in-process (Crystal channels are nanosecond-scale) so the architectural overhead is essentially free. Per-subscriber overflow policy: `Block` for audit (compliance — never drop), `Drop` for TUI / metrics / Telegram (best-effort).
+All long-lived components are fibers in one OS process.The bus is in-process (Crystal channels are nanosecond-scale) so the architectural overhead is essentially free. Per-subscriber overflow policy: `Block` for audit (compliance — never drop), `Drop` for TUI / metrics / Telegram (best-effort).
 
 ## The Three-Layer Audit Log
 
