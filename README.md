@@ -29,7 +29,7 @@ README.md
 - Four-step rotation contract (`generate → apply → verify → commit`) borrowed from AWS Secrets Manager's rotation Lambda template, dual-version safe under concurrent reads. 
 - Three-layer tamper-evident audit log: SHA-256 hash chain + ratcheting HMAC-SHA256 + Ed25519-signed Merkle batches. 
 - AEAD envelope encryption (AES-256-GCM, per-row DEKs wrapped by KEK, AAD-bound to credential identity, reserved `algorithm_id` byte for crypto agility)
-- Hand-rolled live TUI (no external TUI framework — stdlib ANSI escapes only) with event-driven repaints coalesced to a tick interval
+- Hand-rolled live TUI (no external TUI framework — stdlib ANSI escapes only) with event-driven repaints coalesced to a tick interval. 
 - Bidirectional Telegram bot — viewer tier (`/status`, `/queue`, `/history`, `/alerts`) + operator tier (`/rotate`)
 - Compliance evidence export bundle (signed ZIP with audit log, Merkle batches, control mapping for SOC 2 / PCI-DSS / ISO 27001 / HIPAA). 
 
