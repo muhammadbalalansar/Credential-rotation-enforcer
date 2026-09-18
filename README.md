@@ -62,7 +62,7 @@ just demo-full          # Tier 2 — Docker Compose: PG + LocalStack + Vault + f
 just demo-full-down     # tear down the stack
 ```
 
-### Daemon usage
+### Daemon usage:
 
 `cre run` and `cre watch` require two 32-byte secrets — the seed key for the audit-log HMAC ratchet and the KEK that wraps per-row data keys. Generate fresh values once and store them somewhere durable (KMS, password manager, sealed env file):
 
