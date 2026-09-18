@@ -100,8 +100,7 @@ Adding a fifth rotator means dropping a single file in `src/cre/rotators/` — t
 
 ## Architecture
 
-```
-                       ┌──────────────────────────────────────┐
+```         ┌──────────────────────────────────────┐
                        │       cre  (single Crystal binary)   │
                        │                                      │
    ┌────────────┐      │  ┌──────────────────────────────┐    │
