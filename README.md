@@ -166,7 +166,6 @@ This project includes step-by-step learning materials covering security theory, 
 | [03 - Implementation](learn/03-IMPLEMENTATION.md) | Code-level walkthrough; where to look in source for each concept |
 | [04 - Challenges](learn/04-CHALLENGES.md) | 10 ranked extension challenges (PG ALTER USER, Slack, ML-KEM, OpenTimestamps, SPIFFE, JIT broker, etc.) |
 
-
 ## License
 
 AGPL 3.0
