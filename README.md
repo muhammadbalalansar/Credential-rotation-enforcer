@@ -33,7 +33,7 @@ README.md
 - Bidirectional Telegram bot — viewer tier (`/status`, `/queue`, `/history`, `/alerts`) + operator tier (`/rotate`)
 - Compliance evidence export bundle (signed ZIP with audit log, Merkle batches, control mapping for SOC 2 / PCI-DSS / ISO 27001 / HIPAA). 
 
-## Quick Start
+## Quick Start:
 
 ```bash
 git clone https://github.com/CarterPerez-dev/Cybersecurity-Projects.git
