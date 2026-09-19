@@ -49,7 +49,7 @@ Or use the install script:
 curl -fsSL https://raw.githubusercontent.com/CarterPerez-dev/Cybersecurity-Projects/main/PROJECTS/intermediate/credential-rotation-enforcer/scripts/install.sh | bash
 ```
 
-> [!TIP]
+> [!TIP] . 
 > This project uses [`just`](https://github.com/casey/just) as a command runner. Type `just` to see all available recipes.
 >
 > Install: `curl -sSf https://just.systems/install.sh | bash -s -- --to ~/.local/bin`
