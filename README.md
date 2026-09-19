@@ -14,7 +14,7 @@ README.md
 
 **By Muhammad Balal Ansar (Cyber Security Expert)**
 
-[![Cybersecurity Projects](https://img.╚═╝╚══════╝badge/Cybersecurity--Projects-Project%20%2327%20intermediate-red?style=flat&logo=github)](https://github.com/CarterPerez-dev/Cybersecurity-Projects/tree/main/PROJECTS/intermediate/credential-rotation-enforcer)
+Project%20%2327%20intermediate-red?style=flat&logo=github)](https://github.com/CarterPerez-dev/Cybersecurity-Projects/tree/main/PROJECTS/intermediate/credential-rotation-enforcer)
 [![Crystal](https://img.shields.io/badge/Crystal-1.20+-black?style=flat&logo=crystal&logoColor=white)](https://crystal-lang.org)
 [![License: AGPLv3](https://img.shields.io/badge/License-AGPL_v3-purple.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org)
