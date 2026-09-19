@@ -14,7 +14,7 @@ README.md
 
 **By Muhammad Balal Ansar (Cyber Security Expert)**
 
-[![Cybersecurity Projects](https://img.shields.io/badge/Cybersecurity--Projects-Project%20%2327%20intermediate-red?style=flat&logo=github)](https://github.com/CarterPerez-dev/Cybersecurity-Projects/tree/main/PROJECTS/intermediate/credential-rotation-enforcer)
+[![Cybersecurity Projects](https://img.╚═╝╚══════╝badge/Cybersecurity--Projects-Project%20%2327%20intermediate-red?style=flat&logo=github)](https://github.com/CarterPerez-dev/Cybersecurity-Projects/tree/main/PROJECTS/intermediate/credential-rotation-enforcer)
 [![Crystal](https://img.shields.io/badge/Crystal-1.20+-black?style=flat&logo=crystal&logoColor=white)](https://crystal-lang.org)
 [![License: AGPLv3](https://img.shields.io/badge/License-AGPL_v3-purple.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org)
@@ -23,7 +23,7 @@ README.md
 
 *This is a quick overview — security theory, architecture, and full walkthroughs are in the [learn modules](#learn). Operator setup lives in [CONFIGURATION.md](CONFIGURATION.md).*
 
-## What It Does
+## What It Does:
 
 - Compile-time-checked policy DSL (typo'd action symbols, missing fields, bad credential property references all fail `crystal build`)
 - Bus + plugin architecture — typed events fan out across Crystal channels; subscribers (audit, TUI, Telegram, log) react independently; rotators register at compile time via `register_as :kind` macro
