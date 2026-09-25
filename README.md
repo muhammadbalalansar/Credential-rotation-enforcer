@@ -15,7 +15,6 @@ README.md
 **By Muhammad Balal Ansar (Cyber Security Expert)**
 
 
-
 > Credential rotation enforcer written in Crystal. Tracks credentials, evaluates compile-time-checked policies, and executes the four-step rotation contract against AWS Secrets Manager, HashiCorp Vault, GitHub fine-grained PATs, and local `.env` files. Single binary, live TUI, bidirectional Telegram bot, tamper-evident audit log,signed compliance evidence export.
 
 *This is a quick overview — security theory, architecture, and full walkthroughs are in the [learn modules](#learn). Operator setup lives in [CONFIGURATION.md](CONFIGURATION.md).*
