@@ -140,7 +140,7 @@ All long-lived components are fibers in one OS process.The bus is in-process (Cr
 
 **Testing:** stdlib `Spec` runner, 179+ unit tests + integration tests against real PostgreSQL via Docker.
 
-## Configuration
+## Configuration:
 
 Setup is fully env-var driven — no config file required. See **[CONFIGURATION.md](CONFIGURATION.md)** for the operator guide:
 
