@@ -18,7 +18,7 @@ README.md
 
 *This is a quick overview — security theory, architecture, and full walkthroughs are in the [learn modules](#learn). Operator setup lives in [CONFIGURATION.md](CONFIGURATION.md).*
 
-## What It Does:
+## What It Does
 
 - Compile-time-checked policy DSL (typo'd action symbols, missing fields, bad credential property references all fail `crystal build`)
 - Bus + plugin architecture — typed events fan out across Crystal channels; subscribers (audit, TUI, Telegram, log) react independently; rotators register at compile time via `register_as :kind` macro
