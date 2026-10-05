@@ -150,7 +150,7 @@ Setup is fully env-var driven — no config file required. See **[CONFIGURATION.
 - systemd service unit with hardening directives
 - Production security checklist
 
-## Learn
+## Learn:
 
 This project includes step-by-step learning materials covering security theory, architecture, and implementation.
 
