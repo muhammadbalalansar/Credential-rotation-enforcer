@@ -38,7 +38,7 @@ shards install && shards build cre --release
 ./bin/cre demo
 ```
 
-Or use the install script:
+Or use the install script
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/CarterPerez-dev/Cybersecurity-Projects/main/PROJECTS/intermediate/credential-rotation-enforcer/scripts/install.sh | bash
