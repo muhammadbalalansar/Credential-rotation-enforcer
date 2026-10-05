@@ -49,7 +49,7 @@ curl -fsSL https://raw.githubusercontent.com/CarterPerez-dev/Cybersecurity-Proje
 >
 > Install: `curl -sSf https://just.systems/install.sh | bash -s -- --to ~/.local/bin`
 
-### Demo tiers
+### Demo tiers:
 
 ```bash
 just demo               # Tier 1 — zero-deps SQLite + .env rotator (under 30s)
