@@ -94,7 +94,7 @@ cre verify-bundle evidence.zip                   # offline re-verify a bundle
 
 Adding a fifth rotator means dropping a single file in `src/cre/rotators/` — the `register_as :kind` macro hooks it into the registry at compile time. Zero changes to the orchestrator, scheduler, or any subscriber.
 
-## Architecture
+## Architecture:
 
 ```         ┌──────────────────────────────────────┐
                        │       cre  (single Crystal binary)   │
