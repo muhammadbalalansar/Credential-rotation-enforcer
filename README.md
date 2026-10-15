@@ -130,7 +130,7 @@ All long-lived components are fibers in one OS process.The bus is in-process (Cr
 
 `cre audit verify` walks all three layers and reports which (if any) is broken.
 
-## Stack
+## Stack:
 
 **Language:** Crystal 1.20+
 
