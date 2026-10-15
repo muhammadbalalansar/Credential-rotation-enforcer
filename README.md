@@ -128,7 +128,7 @@ All long-lived components are fibers in one OS process.The bus is in-process (Cr
    Postgres ─ append-only via TRIGGER + role grants (INSERT-only). 
 ```
 
-`cre audit verify` walks all three layers and reports which (if any) is broken.
+`cre audit verify` *walks all three layers and reports which (if any) is broken.*
 
 ## Stack:
 
